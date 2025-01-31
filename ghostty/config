@@ -6,10 +6,10 @@ window-padding-x = 4,4
 window-padding-balance = false
 
 font-family = "JetBrainsMono Nerd Font"
-font-size = 11
+font-size = 13
 
-background-opacity = 0.5
-background = 000000
+background-opacity = 0.6
+background = 000000 
 
 clipboard-read = allow
 clipboard-write = allow
@@ -24,10 +24,6 @@ bold-is-bright = true
 
 shell-integration-features = no-cursor
 
-# Moonlight Colors (Muted)
-# foreground = a9b8e8
-# background = 222436
-
 # Normal Colors (Muted)
 palette = 0=#393b44
 palette = 1=#dc6068
@@ -39,14 +35,14 @@ palette = 6=#70b7d6
 palette = 7=#a9b8e8
 
 # Bright Colors (Slightly brighter but still muted)
-palette = 8=#444a73
-palette = 9=#e17075
-palette = 10=#b4d88a
-palette = 11=#e6b366
-palette = 12=#7b9bd1
-palette = 13=#ab91e1
-palette = 14=#7fc6e4
-palette = 15=#b9c6ee
+palette = 8=444a73
+palette = 9=e17075
+palette = 10=b4d88a
+palette = 11=e6b366
+palette = 12=7b9bd1
+palette = 13=ab91e1
+palette = 14=7fc6e4
+palette = 15=b9c6ee
 
 # Selection
 selection-background = 2c447a
