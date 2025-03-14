@@ -286,7 +286,8 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 ## App shortcuts
-bindsym $mod+w exec /usr/bin/firefox
+bindsym $mod+w exec brave
+bindsym $mod+Shift+w exec firefox
 bindsym $mod+n exec /usr/bin/thunar
 bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
@@ -375,6 +376,10 @@ exec --no-startup-id dex --autostart --environment i3
 
 # start welcome app
 #exec --no-startup-id sh /usr/share/endeavouros/scripts/welcome --startdelay=3 
+
+
+# russian-english keyboard layout 
+exec --no-startup-id setxkbmap -layout us,ru -option grp:alt_shift_toggle
 
 # num lock activated
 #exec --no-startup-id numlockx on
