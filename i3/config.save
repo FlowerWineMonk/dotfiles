@@ -288,7 +288,7 @@ bindsym $mod+p exec /usr/local/bin/switch-audio-port
 ## App shortcuts
 bindsym $mod+w exec brave
 bindsym $mod+Shift+w exec firefox
-bindsym $mod+Shift+a exec /usr/bin/anki
+bindsym $mod+a exec /usr/bin/anki
 bindsym $mod+n exec /usr/bin/thunar
 bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
