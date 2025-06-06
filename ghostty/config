@@ -8,7 +8,7 @@ window-padding-balance = false
 font-family = "JetBrainsMono Nerd Font"
 font-size = 13
 
-background-opacity = 0.6
+background-opacity = 0.8
 background = 000000 
 
 clipboard-read = allow
