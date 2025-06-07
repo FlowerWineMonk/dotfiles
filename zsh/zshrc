@@ -150,6 +150,7 @@ alias h='cd $HOME'
 alias c='cd ~/.config'
 alias v='cd ~/Videos/日本語上手/'
 alias a='acpi'
+alias s='sudo pacman -S'
 
 # pnpm
 export PNPM_HOME="/home/isabek/.local/share/pnpm"
@@ -162,3 +163,6 @@ esac
 
 # Show just current directory and ❯
 # PROMPT='%F{blue}%1~%f %F{red}%f '
+
+# Add ZOXIDE
+eval "$(zoxide init zsh)"
