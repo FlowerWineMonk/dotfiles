@@ -1,0 +1,2 @@
+# Source ~/.zshrc so you get your aliases/functions in login shells (optional if your terminal launches zsh as an interactive shell)
+[[ -f ~/.zshrc ]] && source ~/.zshrc
