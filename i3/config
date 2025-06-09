@@ -301,6 +301,7 @@ bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 ## App shortcuts
 bindsym $mod+w exec brave
+bindsym $mod+c exec google-chrome-stable
 bindsym $mod+Shift+w exec firefox
 bindsym $mod+Shift+a exec /usr/bin/anki
 bindsym $mod+n exec /usr/bin/thunar

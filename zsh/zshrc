@@ -152,6 +152,7 @@ alias v='cd ~/Videos/日本語上手/'
 alias a='acpi'
 alias s='sudo pacman -S'
 alias n='nmtui'
+alias ca='clear'
 
 # pnpm
 export PNPM_HOME="/home/isabek/.local/share/pnpm"
