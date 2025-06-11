@@ -153,6 +153,8 @@ alias a='acpi'
 alias s='sudo pacman -S'
 alias n='nmtui'
 alias ca='clear'
+alias p='pkill'
+alias t='tmux'
 
 # pnpm
 export PNPM_HOME="/home/isabek/.local/share/pnpm"
