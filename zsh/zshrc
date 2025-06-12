@@ -155,6 +155,7 @@ alias n='nmtui'
 alias ca='clear'
 alias p='pkill'
 alias t='tmux'
+alias br='sudo brightnessctl set '
 
 # pnpm
 export PNPM_HOME="/home/isabek/.local/share/pnpm"
