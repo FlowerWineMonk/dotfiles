@@ -435,10 +435,6 @@ exec --no-startup-id setxkbmap -layout us,ru -option grp:alt_shift_toggle
 # uncomment the next line, use arandr to setup displays and save the file as monitor:
 exec --no-startup-id ~/.screenlayout/monitor.sh
 
-# set wallpaper
-exec --no-startup-id sleep 2 && nitrogen --restore /home/isabek/Pictures/Wallpaper/monogatari/989205.png
-
-
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
 
@@ -636,3 +632,6 @@ bindsym $mod+t exec rofi -show window \
 #		-config ~/.config/rofi/rofidmenu.rasi
 
 exec_always --no-startup-id xrandr --output eDP --auto --output HDMI-1-0 --auto --left-of eDP
+
+# set wallpaper
+exec_always --no-startup-id sleep 1 && nitrogen --restore
