@@ -156,6 +156,7 @@ alias ca='clear'
 alias p='pkill'
 alias t='tmux'
 alias br='sudo brightnessctl set '
+alias ff='fastfetch'
 
 # pnpm
 export PNPM_HOME="/home/isabek/.local/share/pnpm"
