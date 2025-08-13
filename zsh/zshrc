@@ -172,3 +172,6 @@ esac
 
 # Add ZOXIDE
 eval "$(zoxide init zsh)"
+
+# Add JAVA_HOME for JDTLS support
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
