@@ -305,8 +305,9 @@ bindsym $mod+c exec google-chrome-stable
 bindsym $mod+Shift+w exec firefox
 bindsym $mod+Shift+a exec /usr/bin/anki
 bindsym $mod+n exec /usr/bin/thunar
-bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+# bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
+bindsym Print exec --no-startup-id flameshot gui
 # Power Profiles menu switcher (rofi)
 bindsym $mod+Shift+p exec ~/.config/i3/scripts/power-profiles
 

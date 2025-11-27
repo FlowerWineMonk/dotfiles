@@ -50,3 +50,4 @@ selection-foreground = a9b8e8
 
 # Cursor
 cursor-color = a9b8e8
+confirm-close-surface = false
